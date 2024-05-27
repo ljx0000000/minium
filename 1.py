@@ -28,7 +28,10 @@ def minPathSum(grid):
 
 # Example usage:
 grid1 = [[1, 3, 1], [1, 5, 1], [4, 2, 1]]
-print(minPathSum(grid1))  # Output: 7
+print(minPathSum(grid1))  
 
 grid2 = [[1, 2, 3], [4, 5, 6]]
-print(minPathSum(grid2))  # Output: 12
+print(minPathSum(grid2))  
+
+grid3 = [[3, 4, 7], [5, 4, 3], [1, 5, 7]]
+print(minPathSum(grid3))
